@@ -1,0 +1,108 @@
+header{
+    padding:0px 20px;
+    background-color: rgb(39, 39, 38) ;
+    box-shadow: 0 25px 38px rgba(0,0,0,0.30), 0 19px 12px rgba(0,0,0,0.22);
+    position:sticky;
+    top:0px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+h1{
+    text-align: center;
+}
+header div{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    align-self: center;
+}
+#logo{
+    align-self: center;
+    justify-self: end;
+    width: 40px;
+}
+nav {
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    gap: 3rem;
+}
+body{
+    background-color: rgb(39, 39, 38);
+}
+nav a {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    position:relative;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 16px 0px;
+}
+nav .line{
+    transition: 0.3s;
+    width:0%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    left:0px;
+    bottom: 0px;
+}
+nav a:hover .line, nav .active .line{
+    width:100%;
+}
+body{
+    margin: 0;
+}
+main{
+    padding: 1rem;
+    max-width: 768px;
+    margin:auto;
+
+}
+.uppercontainer{
+    color:rgb(255, 255, 255);
+    font-family: "Montserrat", sans-serif;
+    
+}
+.uppercontainer br{
+    text-align: left;
+    font-size: 5px;
+}
+.uppercontainer h1{
+    text-align: center;
+}
+.uppercontainer img{
+    text-align: center;
+    width:100%;
+    aspect-ratio: 16/5;
+    object-fit: cover;
+}
+@media screen and (min-width:426px){
+    nav a {
+        font-size: 20px;
+    }
+}
+.firstdiv p:first-child{
+    margin-top: 0;
+}
+
+.row{
+    display: flex;
+}
+#placeholder {
+    border-color: rgb(255, 255, 255);
+    height: 300px;
+    max-width: auto;
+    border: 20px;
+}
+
+.firstdiv{
+    line-height: 24px;
+    font-family: "Teachers", sans-serif;
+    color: rgb(255, 255, 255);
+}
+.seconddiv{
+    line-height: 24px;
+    font-family: "Teachers", sans-serif;
+    color: rgb(255, 255, 255);
+}
